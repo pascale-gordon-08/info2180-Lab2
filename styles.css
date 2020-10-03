@@ -4,7 +4,7 @@
     background-color: #63B3eD;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    color: #ffffff;
 }
 
 .flex-item{
@@ -29,16 +29,17 @@ article {
   aside {
     float: right;
     width: 35%;
+    color: #48BB47;
   }
 
 .firstside{
-    background-color: #3c3c3b;
+    background-color:#E2E8F0;
 }
 
 
   footer {
     clear:both;
-    background: #3c3c3b;
+    background: #2C5282;
     color: white;
     padding: 10px;
     
