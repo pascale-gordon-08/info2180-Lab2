@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #63B3eD;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.flex-item{
+    border-radius:50%;
+}
+
+img {
+    width:50%;
+    height:50%;
+}
+
+.firstpic{
+    border-radius: 50%;
+}
+
+article {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+  }
+
+  aside {
+    float: right;
+    width: 35%;
+  }
+
+.firstside{
+    background-color: #3c3c3b;
+}
+
+
+  footer {
+    clear:both;
+    background: #3c3c3b;
+    color: white;
+    padding: 10px;
+    
+  }
