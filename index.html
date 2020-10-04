@@ -8,18 +8,22 @@
 </head>
 <body>
 <div class="grid-container">
-    <div class="flex-container">
-    <header>
-        <div class="firstpic"> <img src="profilepic.jpg" alt="cartoon"> </div>
-        <div> <h1>Pascale Gordon</h1> </div>   
-        <div> <p>Web Developer in training </p> </div> 
-    </header>
+    <div id= "box1" class="grid-item">
+        <div class="flex-container">
+        <header>
+        <div id="firstpic" class="flex-item"> <img src="profilepic.jpg" alt="cartoon"> </div>
+        <div id="h-name" class="flex-item"> <h1>Pascale Gordon</h1> </div>   
+        <div id="h-title" class="flex-item"> <p>Web Developer in training </p> </div> 
+        </header>
+        </div>
     </div>
  
+ <div id="box2" class="grid-item">
  <main>
  <!-- This will contain your blog posts -->
 <article>
-    <h2>Sweet treats are EVERYTHING!</h2>    
+    <h2>Sweet treats are EVERYTHING!</h2>
+    <img src="sweets.jpg" alt="Desserts">    
     <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam doloribus numquam odio sunt eum, delectus 
         impedit rerum laborum asperiores, reiciendis libero qui? Dicta, deserunt explicabo ducimus sint assumenda praesentium
@@ -29,11 +33,12 @@
          nihil praesentium dignissimos! Veniam dolor perspiciatis obcaecati quidem laborum ipsam. Aspernatur voluptatum fugit doloremque illo optio, 
          impedit quae? Provident ut vitae, modi voluptas officiis laborum mollitia reprehenderit consequatur numquam blanditiis deserunt omnis asperiores 
          eveniet at cupiditate.</p>
-         <img src="sweets.jpg" alt="Desserts">
+         
 </article>
 <hr>
 <article>
     <h2>My new favourite group</h2>
+    <img src="bts.jpg" alt="Bangtan ">
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis totam eos hic fugiat explicabo magni 
         voluptatum maiores deleniti illum aspernatur, quo velit ut ullam rem libero, et numquam odit iusto. Lorem ipsum 
         dolor sit amet consectetur adipisicing elit. Dolore reprehenderit quaerat eaque porro cupiditate. Distinctio, officia voluptates. 
@@ -43,10 +48,13 @@
         sit amet consectetur, adipisicing elit. Vel, nesciunt! Magnam iusto explicabo numquam provident veritatis voluptas blanditiis. 
         Velit a fugit dignissimos suscipit necessitatibus nulla animi praesentium illo libero ipsa. </p> 
     
-    <img src="bts.jpg" alt="Bangtan ">
+    
 </article>
 </main>
- <aside>
+</div>
+ 
+<div id="box3" class="grid-item">
+<aside>
  <!-- This will be your sidebar -->
  <div class="firstside">
  <h3>About</h3>
@@ -68,9 +76,13 @@
     </ul>
 
  </aside>
- <footer>
- <p>Copyright &copy; 2020, Pascale Gordon </p>
- </footer>
+</div>
+ 
+    <div id="box4" class="grid-item">
+    <footer>
+    <p>Copyright &copy; 2020, Pascale Gordon </p>
+    </footer>
+    </div>
 </div>
 </body>
 </html>
